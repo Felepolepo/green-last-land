@@ -19,8 +19,8 @@ dist_aggro = 50;
 dist_desaggro = 100;
 
 // Valores padrões para serem sobrescritos no filho
-vida_default = 10;
-dano_default = 10;
+vida_default = 40;
+dano_default = 8;
 sprite_base_default = "orc1";
 
 // Usa as variáveis padrões inicialmente

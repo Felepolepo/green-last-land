@@ -3,6 +3,10 @@
 //nesse caso é o inimigo 
 other.vida -= obj_personagem.dano[obj_personagem.level];
 
+//Som De danos do slime
+var sfx = audio_play_sound(snd_sfx_hit_slime, 1, false);
+audio_sound_gain(sfx, global.vol_sfx, 0);
+
 var _dir = point_direction(obj_personagem.x ,obj_personagem.y, other.x, other.y);
 other.empurrar_dir = _dir; //pegar posição do slime
 other.empurrar_veloc = 6; // define os frames para empurrar

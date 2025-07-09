@@ -8,11 +8,11 @@ if other.tomardano == true{
 		alarm[2] = 10;
 		alarm[3] = 100; 
 		tomardano = false;
-		vida -= 10;
+		vida -= 12;
 
 	}
 	var _inst = instance_create_layer(x,y, "instances", obj_dano);
 	_inst.alvo = other;
-	_inst.dano = 10;
+	_inst.dano = 12;
 }
 

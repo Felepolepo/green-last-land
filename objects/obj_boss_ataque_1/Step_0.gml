@@ -1,3 +1,6 @@
+Script_menu_Pause(1); // ou outro valor padrão de velocidade
+if (global.pausado) exit; // Ou: return;
+
 if fim_da_animacao(){
 	var _dir=0;	
 	
@@ -7,6 +10,8 @@ if fim_da_animacao(){
 		_inst.direction = _dir;
 		
 		_dir += 90;
+		Script_menu_Pause(1); // ou outro valor padrão de velocidade
+		if (global.pausado) exit; // Ou: return;
 	}
 	instance_destroy();
 }

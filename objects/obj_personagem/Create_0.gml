@@ -1,3 +1,4 @@
+
 //Estado 
 estado = ScriptDoPersonagem_Andando;
 
@@ -37,33 +38,33 @@ level = 1;
 
 xp = 0;
 max_xp[1] = 100;
-max_xp[2] = 120;
-max_xp[3] = 150;
-max_xp[4] = 200;
-max_xp[5] = 300;
+max_xp[2] = 150;
+max_xp[3] = 220;
+max_xp[4] = 300;
+max_xp[5] = 400;
 
 // Estamina por nível
 max_estamina[1] = 100;
-max_estamina[2] = 120;
-max_estamina[3] = 130;
-max_estamina[4] = 140;
-max_estamina[5] = 150;
+max_estamina[2] = 110;
+max_estamina[3] = 120;
+max_estamina[4] = 130;
+max_estamina[5] = 140;
 estamina = max_estamina[level]; // Estamina inicial conforme o nível
 
 // Vida por nível
-max_vida[1] = 20;
-max_vida[2] = 25;
-max_vida[3] = 30;
-max_vida[4] = 35;
-max_vida[5] = 40;
+max_vida[1] = 40;
+max_vida[2] = 50;
+max_vida[3] = 60;
+max_vida[4] = 70;
+max_vida[5] = 80;
 vida = max_vida[level]; // Vida inicial
 
 // Dano por nível
 dano[1] = 3;
 dano[2] = 5;
-dano[3] = 10;
-dano[4] = 15;
-dano[5] = 20;
+dano[3] = 8;
+dano[4] = 10;
+dano[5] = 12;
 
 // COMBATE / DANO
 tomardano = true;       // Se o personagem pode tomar dano

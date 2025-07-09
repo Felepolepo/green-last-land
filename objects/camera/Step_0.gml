@@ -15,6 +15,9 @@ target_x = clamp(target_x, 0, room_w - cam_w);
 target_y = clamp(target_y, 0, room_h - cam_h);
 
 // Suavidade com lerp
+/*
+A função lerp(a, b, t) no GameMaker (e em várias outras engines) faz interpolação linear entre dois valores.
+*/
 x = lerp(x, target_x, 0.05);
 y = lerp(y, target_y, 0.05);
 

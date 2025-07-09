@@ -2,9 +2,9 @@
   "$GMObject":"",
   "%Name":"obj_npc_greg",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_npc_greg",
@@ -14,8 +14,8 @@
     "path":"folders/Objetos/NPC.yy",
   },
   "parentObjectId":{
-    "name":"Par_Npc",
-    "path":"objects/Par_Npc/Par_Npc.yy",
+    "name":"par_objetos",
+    "path":"objects/par_objetos/par_objetos.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -21,7 +21,7 @@ dist_desaggro = 100; //Distancia para de perseguir
 sombra = -1;
 
 //Combate
-max_vida =5;
+max_vida =15;
 vida = max_vida;
 empurrar_dir = 0;
 empurrar_veloc = 0;

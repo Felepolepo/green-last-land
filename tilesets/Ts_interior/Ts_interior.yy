@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_tiles_paredes_chao",
-    "path":"sprites/spr_tiles_paredes_chao/spr_tiles_paredes_chao.yy",
+    "name":"walls_floor",
+    "path":"sprites/walls_floor/walls_floor.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

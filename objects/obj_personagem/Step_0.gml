@@ -1,10 +1,25 @@
-//carreagar o script
+//Script do Menu
+Script_menu_Pause(1); // ou outro valor padrão de velocidade
+if (global.pausado) exit; // Ou: return;
+//Script propio
 script_execute(estado);
 
 depth = -y;
 
 if alarm[1] <= 0{
 	estamina += 1;
+}
+
+if (vida <= 0) {
+    show_debug_message("Você morreu. Recarregando checkpoint...");
+    
+    if (!global.load_pending) {
+        global.load_slot = "save_checkpoint.ini"; // mesmo nome usado no checkpoint
+        global.load_pending = true;
+        room_goto(room); // reinicia a sala atual
+    }
+
+    exit;
 }
 
 estamina = clamp(estamina, 0, max_estamina[level]); //clamp da um minimo e um maximo
